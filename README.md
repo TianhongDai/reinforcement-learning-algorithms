@@ -79,6 +79,7 @@ python demo.py --<arguments you need>
 ![trpo](figures/04_trpo.png)
 ### 5. PPO
 ![ppo](figures/05_ppo.png)
+
 ## Demos
 Atari Env (BreakoutNoFrameskip-v4)| Box2d Env (BipedalWalker-v2)| Mujoco Env (Hopper-v2)
 -----------------------|-----------------------|-----------------------|
