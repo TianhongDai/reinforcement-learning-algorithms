@@ -17,7 +17,7 @@ This repository will implement the classic deep reinforcement learning algorithm
 ## Update Info
 :triangular_flag_on_post: **2018-10-17** - In this update, most of algorithms have been imporved and **add more experiments with plots** (except for DPPG). The **PPO** now supports **atari-games** and **mujoco-env**. The **TRPO** is much stable and can have better results!  
 &nbsp;  
-:triangular_flag_on_post: **2019-07-15** - In this update, the installation for the openai baseline is no longer needed. I have intergated useful functions in the **rl__utils** module. DDPG is also re-implemented and support more results. README file has been modified. The code structure also has tiny adjustment.
+:triangular_flag_on_post: **2019-07-15** - In this update, the installation for the openai baseline is no longer needed. I have intergated useful functions in the **rl__utils** module. DDPG is also re-implemented and support more results. README file has been modified. The code structure also has tiny adjustment.  
 &nbsp;  
 :triangular_flag_on_post: **2019-07-26** - In this update, the revised repository will be public. In order to have a light size of the repository. I **rebuild** the repository and the previous version is deleted. But I will make a backup in the google driver.
 ## TODO List
