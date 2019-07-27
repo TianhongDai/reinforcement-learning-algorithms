@@ -21,7 +21,7 @@ This repository will implement the classic deep reinforcement learning algorithm
 &nbsp;  
 :triangular_flag_on_post: **2019-07-26** - In this update, the revised repository will be public. In order to have a light size of the repository. I **rebuild** the repository and the previous version is deleted. But I will make a backup in the google driver.
 ## TODO List
-- [x] add prioritized experience replay.
+- [ ] add prioritized experience replay.
 - [x] in the future, we will not use openai baseline's pre-processing functions.
 - [x] improve the **DDPG** - I have already implemented a pytorch Hindsight Experience Replay (HER) with DDPG, you chould check them [here](https://github.com/TianhongDai/hindsight-experience-replay).
 - [ ] update pre-trained models in google driver (will update soon!).
