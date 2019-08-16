@@ -1,5 +1,5 @@
 # Deep Reinforcement Learning Algorithms
-![logo](figures/logo.png)  
+ <div align="center">![logo](figures/logo.png)</div>  
 &nbsp;  
 ![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)  
 This repository will implement the classic deep reinforcement learning algorithms by using **PyTorch**. The aim of this repository is to provide clear code for people to learn the deep reinforcemen learning algorithms. In the future, more algorithms will be added and the existing codes will also be maintained. 
