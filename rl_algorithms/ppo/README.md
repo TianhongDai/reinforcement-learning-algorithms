@@ -13,4 +13,4 @@ python train.py --env-name='<env-name>' --cuda (if you have a GPU) --env-type='m
 python demo.py --env-name='<env name>' --env-type='<env type>' --dist='<dist-type>'
 ```
 ## Results
-![](../figures/05_ppo.png)
+![](../../figures/05_ppo.png)

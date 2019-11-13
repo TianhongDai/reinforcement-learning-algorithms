@@ -9,4 +9,4 @@ python train.py --env-name='<env name>' --cuda (if you have a GPU) --<other flag
 python demo.py --env-name='<env name>' --<algo flags>
 ```
 ## Results
-![](../figures/01_dqn.png)
+![](../../figures/01_dqn.png)

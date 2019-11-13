@@ -9,4 +9,4 @@ python train.py --env-name='<env-name>'
 python demo.py --env-name='<env name>'
 ```
 ## Results
-![](../figures/04_trpo.png)
+![](../../figures/04_trpo.png)

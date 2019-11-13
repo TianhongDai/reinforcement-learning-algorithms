@@ -9,4 +9,4 @@ mpirun -np 1 python -u train.py --env-name='<env name>' --<other-flags> 2>&1 | t
 python demo.py --env-name='<env name>'
 ```
 ## Results
-![](../figures/02_ddpg.png)
+![](../../figures/02_ddpg.png)
