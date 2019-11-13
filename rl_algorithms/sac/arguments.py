@@ -10,7 +10,6 @@ def get_args():
     parse.add_argument('--train-loop-per-epoch', type=int, default=1, help='the training loop per epoch')
     parse.add_argument('--q-lr', type=float, default=3e-4, help='the learning rate')
     parse.add_argument('--p-lr', type=float, default=3e-4, help='the learning rate of the actor')
-    parse.add_argument('--total-frames', type=int, default=int(1e7), help='the total number of frames that trained')
     parse.add_argument('--n-epochs', type=int, default=int(3e3), help='the number of total epochs')
     parse.add_argument('--epoch-length', type=int, default=int(1e3), help='the lenght of each epoch')
     parse.add_argument('--n-updates', type=int, default=int(1e3), help='the number of training updates execute')
@@ -31,5 +30,6 @@ def get_args():
     parse.add_argument('--save-dir', type=str, default='saved_models/', help='the place to save models')
     parse.add_argument('--reg', type=float, default=1e-3, help='the reg term')
     parse.add_argument('--auto-ent-tuning', action='store_true', help='tune the entorpy automatically')
+    parse.add_argument('--log-dir', type=str, default='logs/', help='dir to save log information')
 
     return parse.parse_args()
