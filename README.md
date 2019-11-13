@@ -32,6 +32,7 @@ This repository will implement the classic deep reinforcement learning algorithm
 - gym=0.12.5
 - mpi4py
 - mujoco-py
+- opencv-python
 ## Installation
 1. Install our `rl_utils` module:
 ```bash
