@@ -11,6 +11,6 @@ if __name__ == '__main__':
     set_seeds(args)
     # create the agent
     sac_trainer = sac_agent(env, args)
-    sac_trainer.train()
+    sac_trainer.learn()
     # close the environment
     env.close()

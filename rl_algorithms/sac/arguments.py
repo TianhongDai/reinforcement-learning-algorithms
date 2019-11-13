@@ -31,5 +31,6 @@ def get_args():
     parse.add_argument('--reg', type=float, default=1e-3, help='the reg term')
     parse.add_argument('--auto-ent-tuning', action='store_true', help='tune the entorpy automatically')
     parse.add_argument('--log-dir', type=str, default='logs/', help='dir to save log information')
+    parse.add_argument('--env-type', type=str, default=None, help='environment type')
 
     return parse.parse_args()
