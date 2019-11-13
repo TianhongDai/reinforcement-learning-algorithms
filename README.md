@@ -48,12 +48,12 @@ pip install box2d box2d-kengz
 ## Instruction
 1. Train the agent (details could be found in each folder):
 ```
-cd target_algo_folder/
+cd rl_algorithms/<target_algo_folder>/
 python train.py --<arguments you need>
 ```
 2. Play the demo:
 ```
-cd target_algo_folder/
+cd rl_algorithms/<target_algo_folder>/
 python demo.py --<arguments you need>
 ```
 ## Code Structures
