@@ -13,7 +13,7 @@ This repository will implement the classic deep reinforcement learning algorithm
 - [x] Trust Region Policy Gradient (TRPO)
 - [x] Proximal Policy Optimization (PPO)
 - [ ] Actor Critic using Kronecker-Factored Trust Region (ACKTR)
-- [x] Soft Actor Critic (SAC)
+- [x] Soft Actor-Critic (SAC)
 ## Update Info
 :triangular_flag_on_post: **2018-10-17** - In this update, most of algorithms have been imporved and **add more experiments with plots** (except for DPPG). The **PPO** now supports **atari-games** and **mujoco-env**. The **TRPO** is much stable and can have better results!  
 &nbsp;  
@@ -82,6 +82,8 @@ python demo.py --<arguments you need>
 ![trpo](figures/04_trpo.png)
 ### 5. PPO
 ![ppo](figures/05_ppo.png)
+### 6. SAC
+![sac](figures/06_sac.png)
 
 ## Demos
 Atari Env (BreakoutNoFrameskip-v4)| Box2d Env (BipedalWalker-v2)| Mujoco Env (Hopper-v2)
@@ -91,6 +93,7 @@ Atari Env (BreakoutNoFrameskip-v4)| Box2d Env (BipedalWalker-v2)| Mujoco Env (Ho
 - [Ilya Kostrikov's GitHub](https://github.com/ikostrikov)
 - [Openai Baselines](https://github.com/openai/baselines)
 - [Kai's suggestions to simplify MPI functions](https://github.com/Kaixhin)
+- [rlkit](https://github.com/vitchyr/rlkit)
 
 ## Related Papers
 [1] [A Brief Survey of Deep Reinforcement Learning](https://arxiv.org/abs/1708.05866)  
@@ -103,4 +106,5 @@ Atari Env (BreakoutNoFrameskip-v4)| Box2d Env (BipedalWalker-v2)| Mujoco Env (Ho
 [8] [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1602.01783)  
 [9] [Trust Region Policy Optimization](https://arxiv.org/abs/1502.05477)  
 [10] [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347)  
-[11] [Scalable trust-region method for deep reinforcement learning using Kronecker-factored approximation](https://arxiv.org/abs/1708.05144)  
+[11] [Soft Actor-Critic Algorithms and Applications](https://arxiv.org/pdf/1812.05905)  
+[12] [Scalable trust-region method for deep reinforcement learning using Kronecker-factored approximation](https://arxiv.org/abs/1708.05144)  
