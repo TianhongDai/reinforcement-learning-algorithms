@@ -48,11 +48,8 @@ class tanh_normal(Distribution):
         """
         Sampling in the reparameterization case.
         """
-        sample_mean = torch.zeros(self.normal_mean.size(), dtype=torch.float32)
-        sample_std = torch.ones(self.normal_std.size(), dtype=torch.float32)
-        if self.cuda:
-            sample_mean = sample_mean.cuda()
-            sample_std = sample_std.cuda()
+        sample_mean = torch.zeros(self.normal_mean.size(), dtype=torch.float32, device='cuda' if self.cuda else 'cpu')
+        sample_std = torch.ones(self.normal_std.size(), dtype=torch.float32, device='cuda' if self.cuda else 'cpu')
         z = (self.normal_mean + self.normal_std * Normal(sample_mean, sample_std).sample())
         z.requires_grad_()
         if return_pretanh_value:
