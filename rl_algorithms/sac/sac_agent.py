@@ -97,10 +97,10 @@ class sac_agent:
                         self._update_target_network(self.target_qf1, self.qf1)
                         self._update_target_network(self.target_qf2, self.qf2)
                     global_timesteps += 1
-                # start to do the evaluation
-            mean_rewards = self._evaluate_agent()
             # print the log information
             if epoch % self.args.display_interval == 0:
+                # start to do the evaluation
+                mean_rewards = self._evaluate_agent()
                 print('[{}] Epoch: {} / {}, Frames: {}, Rewards: {:.3f}, QF1: {:.3f}, QF2: {:.3f}, AL: {:.3f}, Alpha: {:.5f}, AlphaL: {:.5f}'.format(datetime.now(), \
                             epoch, self.args.n_epochs, (epoch + 1) * self.args.epoch_length, mean_rewards, qf1_loss, qf2_loss, actor_loss, alpha, alpha_loss))
                 # save models
