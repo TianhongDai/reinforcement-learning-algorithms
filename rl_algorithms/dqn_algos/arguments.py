@@ -20,7 +20,7 @@ def get_args():
     parse.add_argument('--save-dir', type=str, default='saved_models/', help='the folder to save models')
     parse.add_argument('--display-interval', type=int, default=10, help='the display interval')
     parse.add_argument('--env-type', type=str, default='atari', help='the environment type')
-    parse.add_argument('--log-dir', type=str, default='logs/', help='dir to save log information')
+    parse.add_argument('--log-dir', type=str, default='logs', help='dir to save log information')
     parse.add_argument('--use-double-net', action='store_true', help='use double dqn to train the agent')
     parse.add_argument('--use-dueling', action='store_true', help='use dueling to train the agent')
 

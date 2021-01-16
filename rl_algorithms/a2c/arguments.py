@@ -19,7 +19,7 @@ def get_args():
     parse.add_argument('--alpha', type=float, default=0.99, help='the alpha coe of RMSprop')
     parse.add_argument('--max-grad-norm', type=float, default=0.5, help='the grad clip')
     parse.add_argument('--use-gae', action='store_true', help='use-gae')
-    parse.add_argument('--log-dir', type=str, default='logs/', help='log dir')
+    parse.add_argument('--log-dir', type=str, default='logs', help='log dir')
     parse.add_argument('--env-type', type=str, default='atari', help='the type of the environment')
 
     args = parse.parse_args()

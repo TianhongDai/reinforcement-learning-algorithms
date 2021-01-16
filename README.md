@@ -33,15 +33,17 @@ This repository will implement the classic deep reinforcement learning algorithm
 - mpi4py
 - mujoco-py
 - opencv-python
+- cloudpickle
 ## Installation
 1. Install our `rl_utils` module:
 ```bash
 pip install -e .
 ```
 2. Install mujoco: please follow the instruction of [official website](https://github.com/openai/mujoco-py).
-3. Instll Box2d:
+3. Install Atari and Box2d:
 ```bash
 sudo apt-get install swig or brew install swig
+pip install gym[atari]
 pip install gym[box2d]
 pip install box2d box2d-kengz
 ```
