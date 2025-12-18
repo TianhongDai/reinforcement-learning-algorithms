@@ -8,7 +8,7 @@ def get_args():
     parse.add_argument('--seed', type=int, default=123, help='the random seed to reproduce results')
     parse.add_argument('--hidden-size', type=int, default=256, help='the size of the hidden layer')
     parse.add_argument('--train-loop-per-epoch', type=int, default=1, help='the training loop per epoch')
-    parse.add_argument('--q-lr', type=float, default=3e-4, help='the learning rate')
+    parse.add_argument('--q-lr', type=float, default=3e-4, help='the learning rate of the critic')
     parse.add_argument('--p-lr', type=float, default=3e-4, help='the learning rate of the actor')
     parse.add_argument('--n-epochs', type=int, default=int(3e3), help='the number of total epochs')
     parse.add_argument('--epoch-length', type=int, default=int(1e3), help='the lenght of each epoch')
